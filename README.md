@@ -18,7 +18,7 @@ o424104.ingest.sentry.io
 
 ## docker image
 
-Read dockerfile, start the docker container on your vps.
+Read dockerfile, start the docker container on your vps. `sudo docker run -p 443:443 -p 8000:8000 -d --name washcrack --restart=always recolic/washcrack`
 
 On your phone, access `YOUR_SERVER_IP:8000`, read `_a_help.html` to setup dns, download crt & apk, and complete the setup.
 
