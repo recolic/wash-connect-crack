@@ -1,4 +1,8 @@
-# How to use this crack on vps
+# wash crack
+
+Free wash connect. Hardcoded param, Not ready for public use.
+
+## How to use this crack on vps
 
 > Make sure there is not existing HTTPS server running on your machine.
 
