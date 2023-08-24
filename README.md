@@ -16,3 +16,7 @@ o424104.ingest.sentry.io
 5. clear storage for wash connect app, enter laundry room, open the app, login with random password, start the washing machine
 6. when the washing machine is started, close the app and clear storage.
 
+## docker image
+
+Read dockerfile
+
