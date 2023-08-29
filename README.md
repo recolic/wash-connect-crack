@@ -17,8 +17,10 @@ o424104.ingest.sentry.io
 ```
 
 4. (maybe u need to update the location code?)
-5. clear storage for wash connect app, **enter laundry room before open the app**, login with random password, start the washing machine
-6. when the washing machine is started, close the app and clear storage.
+5. Before first use: clear storage for wash connect app, **enter laundry room before open the app**, login with random password, start the washing machine
+6. Enjoy.
+
+If your app doesn't work: repeat step 5
 
 ## docker image
 
