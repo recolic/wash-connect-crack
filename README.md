@@ -7,7 +7,7 @@ Free wash connect. Hardcoded param, Not ready for public use.
 > Make sure there is not existing HTTPS server running on your machine.
 
 1. Run `python -m http.server`. Use your android phone to download `crt` and `apk` from vps. Install the crt and apk.
-2. Run `httpd-standalone-ssl.py` in background.
+2. Run `httpd-standalone-ssl.py` in background. (maybe u need to update the location code!)
 3. Modify DNS record on your phone. The following hostname should points to your vps.
 
 ```
@@ -16,11 +16,25 @@ us-central1-washmobilepay.cloudfunctions.net
 o424104.ingest.sentry.io
 ```
 
-4. (maybe u need to update the location code?)
 5. Before first use: clear storage for wash connect app, **enter laundry room before open the app**, login with random password, start the washing machine
 6. Enjoy.
 
-If your app doesn't work: repeat step 5
+### If anything is going wrong
+
+> Assuming you are using HostsGo to modify DNS
+
+1. Clear storage & cache for wash connect app
+2. Enter launcry room, start HostsGo, start wash-connect app
+3. Try again
+
+#### If it's still not working
+
+1. Clear storage & cache for wash connect app
+2. Clear storage & cache for HostsGo app
+3. Restart your phone
+4. Configure HostsGo app
+5. Enter launcry room, start HostsGo, start wash-connect app
+6. Try again
 
 ## docker image
 
