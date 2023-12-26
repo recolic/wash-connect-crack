@@ -27,14 +27,12 @@ o424104.ingest.sentry.io
 2. Enter launcry room, start HostsGo, start wash-connect app
 3. Try again
 
-#### If it's still not working
+#### If it's still not working: maybe your HostsGo app fucked up
 
-1. Clear storage & cache for wash connect app
-2. Clear storage & cache for HostsGo app
-3. Restart your phone
-4. Configure HostsGo app
-5. Enter launcry room, start HostsGo, start wash-connect app
-6. Try again
+1. Clear storage & cache for HostsGo app
+2. Restart your phone
+3. Configure HostsGo app
+4. Repeat the 3 steps above.
 
 ## docker image
 
