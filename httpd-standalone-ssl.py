@@ -101,6 +101,21 @@ class my_handler(http.server.BaseHTTPRequestHandler):
         self.send_header("Content-type", "text/plain; charset=utf-8")
         self.end_headers()
         self.wfile.write('invalid post query.'.encode('utf-8'))
+    def do_PUT(self):
+        self.send_response(200)
+        if self.path.startswith('/update_machine_status_v1'):
+            # I don't know what to send for this request... We need packet capture here!
+            # This problem cause green "Pay" button loading forever for SOME machine.
+            # Sending a guess reply... TODO: test if it's working fine.
+            self.send_header("content-type","application/json; charset=utf-8")
+            self.end_headers()
+            self.wfile.write('{"status":"ok","error":{"errorCode":0,"errorMessage":""},"notifications":[]}'.encode('utf-8'))
+            return
+
+        self.send_response(403)
+        self.send_header("Content-type", "text/plain; charset=utf-8")
+        self.end_headers()
+        self.wfile.write('invalid put query.'.encode('utf-8'))
  
 
 try:
