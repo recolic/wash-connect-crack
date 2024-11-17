@@ -1,6 +1,6 @@
 # wash crack
 
-Free wash connect. Hardcoded param, Not ready for public use.
+Free wash connect. Hardcoded param.
 
 ## Recommended Usage Steps
 
