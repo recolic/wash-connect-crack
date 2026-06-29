@@ -7,7 +7,7 @@ Free wash connect. Hardcoded param.
 > location code is hardcoded, but it works for any laundry room in my test.
 
 1. Deploy cracked https server with docker: `sudo docker run -p 443:443 -p 8000:8000 -d --name washcrack --restart=always recolic/washcrack`
-2. On your phone, access `YOUR_SERVER_IP:8000`, read `_a_help.html` to setup dns, download crt & apk, and install them.
+2. On your phone, access `YOUR_SERVER_IP:8000`, (1) download+install apk (2) download+install crt (3) read `_a_help.html` to setup dns.
 3. Modify DNS record on your phone. [(HOW-TO)](https://recolic.net/blog/post/android-modify-dns-record-hosts-without-root-reliable-way) The following hostname should points to your vps.
 
 ```
@@ -16,7 +16,7 @@ us-central1-washmobilepay.cloudfunctions.net
 o424104.ingest.sentry.io
 ```
 
-4. **EVERY TIME** Before starting app, please make sure **DNS is modified AND you are in laundry room**. Otherwise, you must clear storage before trying to restart app.
+4. **EVERY TIME** Before starting app, please make sure **DNS is modified AND you are in laundry room**. Otherwise, you must clear app storage & restart app again.
 5. Start app. Login with random password, start the washing machine.
 
 ## If you want to deploy cracked server manually
